@@ -26,16 +26,17 @@ This dataset provides various information about patients, including age, gender,
 
 1. Average age : 54
 
-'''
+```
 df['age'].mean()
-'''
+```
+
 2. Average cholestrol : 246
 
-'''
+```
 df['chol'].mean()
-'''
+```
 3. Average heart rate achieved : 149
 
-'''
+```
 df['thalach'].mean()
-'''
+```
