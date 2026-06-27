@@ -26,17 +26,34 @@ This dataset provides various information about patients, including age, gender,
 
 1. Average age : 54
 
-```
-df['age'].mean()
-```
+2. Average cholestrol : 246 mg/dL
 
-2. Average cholestrol : 246
+3. Average heart rate achieved : 149 (bpm)
 
-```
-df['chol'].mean()
-```
-3. Average heart rate achieved : 149
+__________________________________________________________________________________________________
 
-```
-df['thalach'].mean()
-```
+## wearable_sensor_data.csv
+
+This dataset includes recorded sensor data with basic respiratory measures useful for health monitoring.
+
+### Data features
+
+* heart rate (bpm)
+* respiration rate (bpm)
+* Body temperature (℃)
+* Motion activity
+* Activity type
+* Injury risk level
+
+### Data Structure
+
+* Rows = 500
+* Columns = 7
+
+### Statistical Analysis
+
+1. Average Heart rate : 118. (bpm) 
+
+2. Average Respiratory Rate : 20. (bpm) 
+
+3. Body Temperature : 37  (°C)
